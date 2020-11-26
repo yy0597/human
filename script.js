@@ -55,7 +55,7 @@ async function predict() {
       spring: '봄입니다.',
       summer: '여름입니다.',
       fall:'가을입니다.',
-      winter:'겨울입니다.'
+      winter:'겨울입니다.',
     };
 
     if (probability >= 75) {
