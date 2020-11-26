@@ -52,8 +52,10 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      pen: '이것은 펜입니다.',
-      hand: '이것은 손입니다.',
+      spring: '봄입니다.',
+      summer: '여름입니다.',
+      fall:'가을입니다.',
+      winter:'겨울입니다.'
     };
 
     if (probability >= 75) {
