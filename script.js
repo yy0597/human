@@ -56,6 +56,7 @@ async function predict() {
       summer: '여름입니다.',
       fall:'가을입니다.',
       winter:'겨울입니다.',
+      please:'나뭇잎을 보여 주세요.'
     };
 
     if (probability >= 75) {
